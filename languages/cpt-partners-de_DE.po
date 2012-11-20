@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Post Type Partners v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-11-20 13:19:59+0000\n"
+"Last-Translator: horttcore <me@horttcore.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: cpt-partners.php:57
+#@ cpt-partners
+msgid "Information"
+msgstr "Informationen"
+
+#: cpt-partners.php:77
+#@ cpt-partners
+msgid "URL"
+msgstr "URL"
+
+#: cpt-partners.php:98
+#, php-format
+#@ cpt-partners
+msgid "Partner updated. <a href=\"%s\">View partner</a>"
+msgstr "Partner aktualisiert."
+
+#: cpt-partners.php:99
+#@ cpt-partners
+msgid "Custom field updated."
+msgstr "Benutzerdefiniertesfeld aktualisiert."
+
+#: cpt-partners.php:100
+#@ cpt-partners
+msgid "Custom field deleted."
+msgstr "Benutzerdefiniertesfeld gelöscht."
+
+#: cpt-partners.php:101
+#@ cpt-partners
+msgid "Partner updated."
+msgstr "Partner aktualisiert."
+
+#. translators: %s: date and time of the revision
+#: cpt-partners.php:103
+#, php-format
+#@ cpt-partners
+msgid "Partner restored to revision from %s"
+msgstr "Partner von Revision %s wiederhergestellt."
+
+#: cpt-partners.php:104
+#, php-format
+#@ cpt-partners
+msgid "Partner published. <a href=\"%s\">View partner</a>"
+msgstr "Partner veröffentlicht."
+
+#: cpt-partners.php:105
+#@ cpt-partners
+msgid "Partner saved."
+msgstr "Partner gespeichert."
+
+#: cpt-partners.php:106
+#, php-format
+#@ cpt-partners
+msgid "Partner submitted. <a target=\"_blank\" href=\"%s\">Preview partner</a>"
+msgstr "Partner gespeichert."
+
+#: cpt-partners.php:107
+#, php-format
+#@ cpt-partners
+msgid "Partner scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview partner</a>"
+msgstr "Partner für <strong>%1$s</strong> vorbereitet."
+
+#: cpt-partners.php:107
+#@ default
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: cpt-partners.php:108
+#, php-format
+#@ cpt-partners
+msgid "Partner draft updated. <a target=\"_blank\" href=\"%s\">Preview partner</a>"
+msgstr "Partner Entwurf aktualisiert."
+
+#: cpt-partners.php:126
+#@ cpt-partners
+msgctxt "post type general name"
+msgid "Partners"
+msgstr "Partner"
+
+#: cpt-partners.php:127
+#@ cpt-partners
+msgctxt "post type singular name"
+msgid "Partner"
+msgstr "Partner"
+
+#: cpt-partners.php:128
+#@ cpt-partners
+msgctxt "Partner"
+msgid "Add New"
+msgstr "hinzufügen"
+
+#: cpt-partners.php:129
+#@ cpt-partners
+msgid "Add New Partner"
+msgstr "Partner hinzufügen"
+
+#: cpt-partners.php:130
+#@ cpt-partners
+msgid "Edit Partner"
+msgstr "Partner bearbeiten"
+
+#: cpt-partners.php:131
+#@ cpt-partners
+msgid "New Partner"
+msgstr "Neuer Partner"
+
+#: cpt-partners.php:132
+#@ cpt-partners
+msgid "All Partners"
+msgstr "Alle Partner"
+
+#: cpt-partners.php:133
+#@ cpt-partners
+msgid "View Partner"
+msgstr "Partner ansehen"
+
+#: cpt-partners.php:134
+#@ cpt-partners
+msgid "Search Partners"
+msgstr "Partner suchen"
+
+#: cpt-partners.php:135
+#@ cpt-partners
+msgid "No Partners found"
+msgstr "Kein Partner gefunden"
+
+#: cpt-partners.php:136
+#@ cpt-partners
+msgid "No Partners found in Trash"
+msgstr "Keine Partner im Papierkorb"
+
+#: cpt-partners.php:138
+#@ cpt-partners
+msgid "Partners"
+msgstr "Partner"
+
