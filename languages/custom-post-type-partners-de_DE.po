@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Post Type Partners v1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-02 13:03:04+0000\n"
+"Last-Translator: horttcore <me@horttcore.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/custom-post-type-partners.admin.php:49
+#@ custom-post-type-partners
+msgid "Information"
+msgstr "Informationen"
+
+#: classes/custom-post-type-partners.admin.php:73
+#@ custom-post-type-partners
+msgid "URL"
+msgstr "URL"
+
+#: classes/custom-post-type-partners.admin.php:102
+#@ default
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/custom-post-type-partners.admin.php:103
+#@ default
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/custom-post-type-partners.admin.php:110
+#@ custom-post-type-partners
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/custom-post-type-partners.php:69
+#@ custom-post-type-partners
+msgctxt "post type general name"
+msgid "Partners"
+msgstr "Partner"
+
+#: classes/custom-post-type-partners.php:70
+#@ custom-post-type-partners
+msgctxt "post type singular name"
+msgid "Partner"
+msgstr "Partner"
+
+#: classes/custom-post-type-partners.php:71
+#@ custom-post-type-partners
+msgctxt "Partner"
+msgid "Add New"
+msgstr "Erstellen"
+
+#: classes/custom-post-type-partners.php:72
+#@ custom-post-type-partners
+msgid "Add New Partner"
+msgstr "Neuen Partner erstellen"
+
+#: classes/custom-post-type-partners.php:73
+#@ custom-post-type-partners
+msgid "Edit Partner"
+msgstr "Partner bearbeiten"
+
+#: classes/custom-post-type-partners.php:74
+#@ custom-post-type-partners
+msgid "New Partner"
+msgstr "Neuer Partner"
+
+#: classes/custom-post-type-partners.php:75
+#@ custom-post-type-partners
+msgid "All Partners"
+msgstr "Alle Partner"
+
+#: classes/custom-post-type-partners.php:76
+#@ custom-post-type-partners
+msgid "View Partner"
+msgstr "Partner ansehen"
+
+#: classes/custom-post-type-partners.php:77
+#@ custom-post-type-partners
+msgid "Search Partners"
+msgstr "Partner durchsuchen"
+
+#: classes/custom-post-type-partners.php:78
+#@ custom-post-type-partners
+msgid "No Partners found"
+msgstr "Keine Partner gefunden"
+
+#: classes/custom-post-type-partners.php:79
+#@ custom-post-type-partners
+msgid "No Partners found in Trash"
+msgstr "Keine Partner im Papierkorb gefunden"
+
+#: classes/custom-post-type-partners.php:81
+#@ custom-post-type-partners
+msgid "Partners"
+msgstr "Partner"
+
+#. translators: plugin header field 'Name'
+#: plugin.php:0
+#@ custom-post-type-partners
+msgid "Custom Post Type Partners"
+msgstr "Custom Post Type Partner"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: plugin.php:0
+#@ custom-post-type-partners
+msgid "http://horttcore.de"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: plugin.php:0
+#@ custom-post-type-partners
+msgid "Manage partners"
+msgstr "Verwaltung von Partnern"
+
+#. translators: plugin header field 'Author'
+#: plugin.php:0
+#@ custom-post-type-partners
+msgid "Ralf Hortt"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: plugin.php:0
+#@ custom-post-type-partners
+msgid "1.1.0"
+msgstr ""
+
+#: classes/custom-post-type-partners.admin.php:101
+#: classes/custom-post-type-partners.admin.php:104
+#@ custom-post-type-partners
+msgid "Partner updated."
+msgstr "Partner aktualisiert."
+
+#. translators: %s: date and time of the revision
+#: classes/custom-post-type-partners.admin.php:106
+#, php-format
+#@ custom-post-type-partners
+msgid "Partner restored to revision from %s"
+msgstr "Partner aus Überarbeitung vom %s wiederhergestellt"
+
+#: classes/custom-post-type-partners.admin.php:107
+#@ custom-post-type-partners
+msgid "Partner published."
+msgstr "Partner veröffentlicht."
+
+#: classes/custom-post-type-partners.admin.php:108
+#@ custom-post-type-partners
+msgid "Partner saved."
+msgstr "Partner gespeichert."
+
+#: classes/custom-post-type-partners.admin.php:109
+#@ custom-post-type-partners
+msgid "Partner submitted."
+msgstr "Partner übertragen."
+
+#: classes/custom-post-type-partners.admin.php:110
+#, php-format
+#@ custom-post-type-partners
+msgid "Partner scheduled for: <strong>%1$s</strong>."
+msgstr "Veröffentlichung geplant für: <strong>%1$s</strong>."
+
+#: classes/custom-post-type-partners.admin.php:111
+#@ custom-post-type-partners
+msgid "Partner draft updated."
+msgstr "Der Partnerentwurf wurde aktualisiert."
+
+#: classes/custom-post-type-partners.admin.php:119
+#@ custom-post-type-partners
+msgid "View partner"
+msgstr "Partner ansehen"
+
+#: classes/custom-post-type-partners.admin.php:125
+#@ custom-post-type-partners
+msgid "Preview partner"
+msgstr "Partnervorschau"
+
