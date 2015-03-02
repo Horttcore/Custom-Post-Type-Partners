@@ -1,6 +1,6 @@
 # Custom Post Type Partners
 
-A custom post type to manage staff
+A custom post type to manage partners
 
 ## Supports
 
@@ -22,12 +22,9 @@ A custom post type to manage staff
 
 ### Actions
 
-
 ### Filters
 
-
 ## Template tags
-
 
 ## Changelog
 
