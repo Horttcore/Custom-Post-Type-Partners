@@ -47,7 +47,7 @@ final class Custom_Post_Type_Partner
 	public function load_plugin_textdomain()
 	{
 
-		load_plugin_textdomain( 'custom-post-type-partners', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/'  );
+		load_plugin_textdomain( 'custom-post-type-partners', false, dirname( plugin_basename( __FILE__ ) ) . '/../languages/'  );
 
 	} // end load_plugin_textdomain
 
