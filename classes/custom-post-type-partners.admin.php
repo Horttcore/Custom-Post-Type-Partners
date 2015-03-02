@@ -71,7 +71,7 @@ final class Custom_Post_Type_Partner_Admin
 		<table class="form-table">
 			<tr>
 				<th><label for="partner-url"><?php _e( 'URL', 'custom-post-type-partners' ); ?></label></th>
-				<td><input type="text" name="partner-url" id="partner-url" value="<?php if ( isset( $meta['url'] ) ) echo esc_url_raw( $meta['url'] ) ?>"></td>
+				<td><input type="text" class="regular-text" name="partner-url" id="partner-url" value="<?php if ( isset( $meta['url'] ) ) echo esc_url_raw( $meta['url'] ) ?>"></td>
 			</tr>
 		</table>
 
