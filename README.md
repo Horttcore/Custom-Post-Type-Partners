@@ -8,6 +8,9 @@ A custom post type to manage partners
 * Editor
 * Thumbnail
 * Page Attributes
+* Partner Category ( Taxonomy )
+
+##
 
 ## Custom Fields
 

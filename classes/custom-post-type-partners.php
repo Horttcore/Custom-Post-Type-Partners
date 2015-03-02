@@ -30,6 +30,7 @@ final class Custom_Post_Type_Partner
 	{
 
 		add_action( 'init', array( $this, 'register_post_type' ) );
+		add_action( 'init', array( $this, 'register_taxonomy' ) );
 		add_action( 'plugins_loaded', array( $this, 'load_plugin_textdomain' ) );
 
 	} // END __construct
@@ -95,6 +96,41 @@ final class Custom_Post_Type_Partner
 		) );
 
 	} // END register_post_type
+
+
+
+	/**
+	 * Register taxonomy
+	 *
+	 * @access public
+	 * @since 2.0
+	 * @author Ralf Hortt
+	 */
+	public function register_taxonomy()
+	{
+
+		register_taxonomy( 'partner-category',array( 'partner' ), array(
+			'hierarchical' => TRUE,
+			'labels' => array(
+				'name' => _x( 'Partner Categories', 'taxonomy general name', 'custom-post-type-partners' ),
+				'singular_name' => _x( 'Partner Category', 'taxonomy singular name', 'custom-post-type-partners' ),
+				'search_items' =>  __( 'Search Partner Categories', 'custom-post-type-partners' ),
+				'all_items' => __( 'All Partner Categories', 'custom-post-type-partners' ),
+				'parent_item' => __( 'Parent Partner Category', 'custom-post-type-partners' ),
+				'parent_item_colon' => __( 'Parent Partner Category:', 'custom-post-type-partners' ),
+				'edit_item' => __( 'Edit Partner Category', 'custom-post-type-partners' ),
+				'update_item' => __( 'Update Partner Category', 'custom-post-type-partners' ),
+				'add_new_item' => __( 'Add New Partner Category', 'custom-post-type-partners' ),
+				'new_item_name' => __( 'New Partner Category Name', 'custom-post-type-partners' ),
+				'menu_name' => __( 'Partner Categories', 'custom-post-type-partners' ),
+			),
+			'show_ui' => TRUE,
+			'show_admin_column' => TRUE,
+			'query_var' => TRUE,
+			'rewrite' => array( 'slug' => _x( 'partner-category', 'Slug', 'custom-post-type-partners' ) )
+		));
+
+	} // END register_taxonomy
 
 
 

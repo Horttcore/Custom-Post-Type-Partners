@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Custom Post Type Partners v1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-02 13:03:04+0000\n"
+"PO-Revision-Date: 2015-03-02 15:31:24+0000\n"
 "Last-Translator: horttcore <me@horttcore.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -45,65 +45,65 @@ msgstr ""
 msgid "M j, Y @ G:i"
 msgstr ""
 
-#: classes/custom-post-type-partners.php:69
+#: classes/custom-post-type-partners.php:70
 #@ custom-post-type-partners
 msgctxt "post type general name"
 msgid "Partners"
 msgstr "Partner"
 
-#: classes/custom-post-type-partners.php:70
+#: classes/custom-post-type-partners.php:71
 #@ custom-post-type-partners
 msgctxt "post type singular name"
 msgid "Partner"
 msgstr "Partner"
 
-#: classes/custom-post-type-partners.php:71
+#: classes/custom-post-type-partners.php:72
 #@ custom-post-type-partners
 msgctxt "Partner"
 msgid "Add New"
 msgstr "Erstellen"
 
-#: classes/custom-post-type-partners.php:72
+#: classes/custom-post-type-partners.php:73
 #@ custom-post-type-partners
 msgid "Add New Partner"
 msgstr "Neuen Partner erstellen"
 
-#: classes/custom-post-type-partners.php:73
+#: classes/custom-post-type-partners.php:74
 #@ custom-post-type-partners
 msgid "Edit Partner"
 msgstr "Partner bearbeiten"
 
-#: classes/custom-post-type-partners.php:74
+#: classes/custom-post-type-partners.php:75
 #@ custom-post-type-partners
 msgid "New Partner"
 msgstr "Neuer Partner"
 
-#: classes/custom-post-type-partners.php:75
+#: classes/custom-post-type-partners.php:76
 #@ custom-post-type-partners
 msgid "All Partners"
 msgstr "Alle Partner"
 
-#: classes/custom-post-type-partners.php:76
+#: classes/custom-post-type-partners.php:77
 #@ custom-post-type-partners
 msgid "View Partner"
 msgstr "Partner ansehen"
 
-#: classes/custom-post-type-partners.php:77
+#: classes/custom-post-type-partners.php:78
 #@ custom-post-type-partners
 msgid "Search Partners"
 msgstr "Partner durchsuchen"
 
-#: classes/custom-post-type-partners.php:78
+#: classes/custom-post-type-partners.php:79
 #@ custom-post-type-partners
 msgid "No Partners found"
 msgstr "Keine Partner gefunden"
 
-#: classes/custom-post-type-partners.php:79
+#: classes/custom-post-type-partners.php:80
 #@ custom-post-type-partners
 msgid "No Partners found in Trash"
 msgstr "Keine Partner im Papierkorb gefunden"
 
-#: classes/custom-post-type-partners.php:81
+#: classes/custom-post-type-partners.php:82
 #@ custom-post-type-partners
 msgid "Partners"
 msgstr "Partner"
@@ -187,4 +187,67 @@ msgstr "Partner ansehen"
 #@ custom-post-type-partners
 msgid "Preview partner"
 msgstr "Partnervorschau"
+
+#: classes/custom-post-type-partners.php:115
+#@ custom-post-type-partners
+msgctxt "taxonomy general name"
+msgid "Partner Categories"
+msgstr "partner-kategorie"
+
+#: classes/custom-post-type-partners.php:116
+#@ custom-post-type-partners
+msgctxt "taxonomy singular name"
+msgid "Partner Category"
+msgstr "Partner Kategorie"
+
+#: classes/custom-post-type-partners.php:117
+#@ custom-post-type-partners
+msgid "Search Partner Categories"
+msgstr "Partner Kategorie suchen"
+
+#: classes/custom-post-type-partners.php:118
+#@ custom-post-type-partners
+msgid "All Partner Categories"
+msgstr "Alle Partner Kategorien"
+
+#: classes/custom-post-type-partners.php:119
+#@ custom-post-type-partners
+msgid "Parent Partner Category"
+msgstr "Übergeordnete Partner Kategorie"
+
+#: classes/custom-post-type-partners.php:120
+#@ custom-post-type-partners
+msgid "Parent Partner Category:"
+msgstr "Übergeordnete Partner Kategorie:"
+
+#: classes/custom-post-type-partners.php:121
+#@ custom-post-type-partners
+msgid "Edit Partner Category"
+msgstr "Partner Kategorie bearbeiten"
+
+#: classes/custom-post-type-partners.php:122
+#@ custom-post-type-partners
+msgid "Update Partner Category"
+msgstr "Partner Kategorie aktualisieren"
+
+#: classes/custom-post-type-partners.php:123
+#@ custom-post-type-partners
+msgid "Add New Partner Category"
+msgstr "Neue Partner Kategorie erstellen"
+
+#: classes/custom-post-type-partners.php:124
+#@ custom-post-type-partners
+msgid "New Partner Category Name"
+msgstr "Neuer Partner Kategoriename"
+
+#: classes/custom-post-type-partners.php:125
+#@ custom-post-type-partners
+msgid "Partner Categories"
+msgstr "Partner Kategorien"
+
+#: classes/custom-post-type-partners.php:130
+#@ custom-post-type-partners
+msgctxt "Slug"
+msgid "partner-category"
+msgstr "partner-kategorie"
 
